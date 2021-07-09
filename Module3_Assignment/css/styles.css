@@ -1,0 +1,215 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav {
+	background-color: #d7b38c;
+	border-radius: 2px;
+	border: 0;
+}
+/* #f6b319-yellov */
+#logo-img {
+	background: url('../image/Market image.png') no-repeat;
+	width: 120px;
+	height: 120px;
+	margin : 0px 20px 0px 0px;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #557c3e;
+	font-size: 1.8em;
+	text-transform:uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0.5;
+	line-height: 0.5;
+
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	font-size: .7em;
+	margin-top: 15px;
+
+}
+.navbar-brand p span{
+	vertical-align: middle;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a {
+	color: #951C49;
+	text-align: center;
+}
+#nav-list a:hover {
+	background : #E7E7E7;
+}
+#nav-list a span {
+	font-size: 1.2em;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -35px;
+}
+/*END HEADER*/
+/*Footer*/
+.panel-footer {
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top: 100;
+}
+.panel-footer div.row {
+	margin-bottom: 35px;
+}
+#hours, #address {
+	line-height: 2;
+}
+#hours > span, #address > span {
+	font-size: 1.3em;
+}
+#address p {
+	color: #557c3e
+	font-size: 0.8em;
+	line-height: 1;
+}
+#testimonials {
+	font-style: italic;
+}
+#testimonials p:nth-child(2){
+	margin-top : 25px;
+}
+
+/*HOME PAGE*/
+
+/*END HOME PAGE*/
+/* MENU CATEGORIES PAGE */
+
+
+#menu-categories-title + div {
+  margin-bottom: 50px;
+}
+ END MENU CATEGORIES PAGE */
+
+/* SINGLE CATEGORY PAGE */
+.menu-item-tile {
+  margin-bottom: 25px;
+}
+.menu-item-tile hr {
+  width: 80%;
+}
+.menu-item-tile {
+  font-size: 1.1em;
+  text-align: right;
+  margin-top: -15px;
+  margin-right: -15px;
+  margin-bottom: 35px;
+}
+
+.menu-item-description {
+  padding-right: 30px;
+  border: 2px;
+  background-color:#557c3e; 
+}
+h3.menu-item-title {
+  margin: 0 0 10px;
+}
+.menu-item-details {
+  font-size: .9em;
+  font-style: italic;
+  color: #cccccc;
+}
+/* END SINGLE CATEGORY PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+  /* End Header */
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+.navbar-brand {
+	padding-top: 10px;
+	height: 80px;
+}
+.navbar-brand h1{
+	padding-top: 10px;
+	font-size: 5vw;
+}
+.navbar-brand p {
+	font-size: 0.6em;
+	margin-top: 12px;
+}
+.navbar-brand p img{
+	height: 20px;
+}
+#collapsable-nav a {
+	font-size: 1.2em;
+	margin-right: 5px;
+}
+#collapsable-nav a span {
+	font-size: 1em;
+	margin-right: 5px;
+}
+/* End Header */
+
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.panel-footer section:nth-child(3) {
+	margin-bottom: 0;
+}
+.panel-footer section hr {
+	width: 50%;
+}
+/*Home page */
+
+
+.menu-item-tile {
+	text-align: center;
+}
+.menu-item-description {
+	text-align: center;
+}
+}
+/****suoer xtra small devices****/
+@media( max-width: 479px){
+
+	.navbar-brand h1{
+	padding-top: 5px;
+	font-size: 6vw;
+}
+	#menu-tile {
+	width: 280px;
+	margin: 0 auto 15px;		
+	}
+
+
